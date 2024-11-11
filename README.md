@@ -4,7 +4,28 @@
 This repository provides custom demo CDN links for JavaScript, CSS, and other assets, making it easy to integrate them into your projects. Whether you're building a website or testing new features, these CDNs let you quickly access the resources you need. Simply include the provided links in your HTML files to seamlessly use the styles and scripts without downloading any files.
 
 
-## ✨ Usage 
+
+
+
+## ✨ Some of my userful free CDNs for you: 
+
+- `<script src=" "></script>` 
+
+Inject this script for easy checking the API calls from your form for  registering and logging in users within no time :
+
+- Just add this line of code in your HTML file to get started with the demo CDN for JavaScript resources:
+
+- Make sure the input field id must be `"email"` and `"password"` for this  CDN to work properly.
+
+- Form submission  must be these functions `login()` and `register()` for this CDN to work properly.
+
+
+- Done !!!!
+
+
+
+
+##  Usage 
 
 - Using  [jsdelivr.com](https://www.jsdelivr.com/)
 
