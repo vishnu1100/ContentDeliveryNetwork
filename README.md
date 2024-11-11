@@ -7,6 +7,14 @@ This repository provides custom demo CDN links for JavaScript, CSS, and other as
 ## ✨ Usage 
 
 - Using  [jsdelivr.com](https://www.jsdelivr.com/)
+
+
+## Preview
+
+[https://vishnu1100.github.io/Content_Delivery_Network-CDN-/Test.html](https://vishnu1100.github.io/Content_Delivery_Network-CDN-/Test.html)
+
+
+
 ## For Github Hosting
 
 // load any GitHub release, commit, or branch
