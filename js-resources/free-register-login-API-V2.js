@@ -22,12 +22,15 @@
             .then(data => {
                 if (data.message.includes('successful')) {
                     document.getElementById('message').textContent = 'Registration successful!';
+                    alert('Registration successful!')
                 } else {
                     document.getElementById('message').textContent = data.message;
+                    alert('Something went wrong try again later')
                 }
             })
             .catch(error => {
                 document.getElementById('message').textContent = 'An error occurred during registration.';
+                alert('An error occurred during registration.')
             });
         }
 
@@ -37,6 +40,7 @@
 
             if (username === '' || password === '') {
                 document.getElementById('message').textContent = 'Please fill in both fields for login.';
+                alert('Please fill in both fields for login.')
                 return;
             }
 
@@ -54,12 +58,15 @@
             .then(data => {
                 if (data.message.includes('successful')) {
                     document.getElementById('message').textContent = 'Login successful!';
+                    alert('Login successful!')
                 } else {
                     document.getElementById('message').textContent = data.message;
+                    alert('Something went wrong try again later')
                 }
             })
             .catch(error => {
                 document.getElementById('message').textContent = 'An error occurred during login.';
+                alert('An error occurred during login.')
             });
         }
    
