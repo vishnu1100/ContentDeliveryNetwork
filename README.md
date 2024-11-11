@@ -23,6 +23,9 @@ Inject this script for easy checking the API calls from your form for  registeri
 - Done !!!!
 
 
+!!!! Added a simple demo test.html for easy understanding
+
+
 
 
 ##  Usage 
