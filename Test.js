@@ -1,1 +1,1 @@
-alert ('CDN WORKED')
+console.log ('CDN WORKED')

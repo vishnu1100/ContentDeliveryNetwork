@@ -9,15 +9,15 @@ This repository provides custom demo CDN links for JavaScript, CSS, and other as
 
 ## ✨ Some of my userful free CDNs for you: 
 
-- `<script src=" "></script>` 
+- `<script src="https://cdn.jsdelivr.net/gh/vishnu1100/Content_Delivery_Network-CDN-/js-resources/free-register-login-API.js"></script>` 
 
 Inject this script for easy checking the API calls from your form for  registering and logging in users within no time :
 
 - Just add this line of code in your HTML file to get started with the demo CDN for JavaScript resources:
 
-- Make sure the input field id must be `"email"` and `"password"` for this  CDN to work properly.
+- Make sure the input field id must be for loggin id must be  `loginUsername` & `loginPassword` for registering id must be `registerUsername` & `registerPassword` this  CDN to work properly.
 
-- Form submission  must be these functions `login()` and `register()` for this CDN to work properly.
+- Form submission  must be these functions `loginUser()` and `registerUser()` for this CDN to work properly.
 
 
 - Done !!!!

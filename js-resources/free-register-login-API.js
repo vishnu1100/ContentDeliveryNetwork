@@ -1,8 +1,7 @@
 
-// for registering users function  starts
-        function register() {
-            const username = document.getElementById('email').value;
-            const password = document.getElementById('password').value;
+        function registerUser() {
+            const username = document.getElementById('registerUsername').value;
+            const password = document.getElementById('registerPassword').value;
 
             if (username === '' || password === '') {
                 document.getElementById('message').textContent = 'Please fill in both fields for registration.';
@@ -32,14 +31,9 @@
             });
         }
 
-
-// for registering users function  ends 
-
-
-// for logging in  users function starts  
-         function login() {
-            const username = document.getElementById('email').value;
-            const password = document.getElementById('password').value;
+        function loginUser() {
+            const username = document.getElementById('loginUsername').value;
+            const password = document.getElementById('loginPassword').value;
 
             if (username === '' || password === '') {
                 document.getElementById('message').textContent = 'Please fill in both fields for login.';
@@ -69,5 +63,3 @@
             });
         }
    
-
-// for logging in  users function ends 
