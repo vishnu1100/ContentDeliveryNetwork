@@ -9,7 +9,7 @@ This repository provides custom demo CDN links for JavaScript, CSS, and other as
 
 ## ✨ Some of my userful free CDNs for you: 
 
-- `<script src="https://cdn.jsdelivr.net/gh/vishnu1100/Content_Delivery_Network-CDN-/js-resources/free-register-login-API.js"></script>` 
+- `<script src="https://cdn.jsdelivr.net/gh/vishnu1100/Content_Delivery_Network-CDN-/js-resources/free-register-login-API-.js"></script>` 
 
 Inject this script for easy checking the API calls from your form for  registering and logging in users within no time :
 
