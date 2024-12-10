@@ -44,7 +44,11 @@ And the script at the bottom of the page
 ```html
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/vishnu1100/ContentDeliveryNetwork/ToastMessageJS/toast.js"></script>
 ```
+## Demo call 
 
+```
+    <button onclick="showtoast('your_message')">Button</button>
+```
 
 > Files are delivered via the CDN service provided by [jsdeliver](https://www.jsdelivr.com/)
 
