@@ -8,9 +8,6 @@
 
 Toastify is a lightweight, vanilla JS toast notification library.
 
-## Demo
-
-[Click here](https://apvarun.github.io/toastify-js/)
 
 ## Features
 
