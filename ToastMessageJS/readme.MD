@@ -24,35 +24,10 @@ Toastify is a lightweight, vanilla JS toast notification library.
 * Display position
 * Offset position
 
-## Installation
+## Easy Installation
 
-#### Toastify now supports installation via NPM
 
-* Run the below command to add toastify-js to your existing or new project.
-
-```
-npm install --save toastify-js
-```
-
-or
-
-```
-yarn add toastify-js -S
-```
-
-* Import toastify-js into your module to start using it.
-
-```
-import Toastify from 'toastify-js'
-```
-
-You can use the default CSS from Toastify as below and later override it or choose to write your own CSS.
-
-```
-import "toastify-js/src/toastify.css"
-```
-
-#### Adding ToastifyJs to HTML page using the traditional method
+#### Adding ToastifyJs to  page using the traditional method
 
 To start using **Toastify**, add the following CSS on to your page.
 
@@ -65,6 +40,11 @@ And the script at the bottom of the page
 ```html
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 ```
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/vishnu1100/ContentDeliveryNetwork/ToastMessageJS/toast.js"></script>
+```
+
 
 > Files are delivered via the CDN service provided by [jsdeliver](https://www.jsdelivr.com/)
 
@@ -421,16 +401,3 @@ If `gravity` is equals to `bottom`, it will be pushed from bottom.
 
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-
-## License
-
-MIT © [Varun A P](https://github.com/apvarun)
-
-<a href="https://www.buymeacoffee.com/apvarun" target="_blank" rel="noopener"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="40" width="145" alt="Buy Me A Coffee"></a>
-
-[ie]: https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/edge.png
-[firefox]: https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/firefox.png
-[chrome]: https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/chrome.png
-[safari]: https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/safari.png
-[opera]: https://raw.githubusercontent.com/godban/browsers-support-badges/master/src/images/opera.png
-
