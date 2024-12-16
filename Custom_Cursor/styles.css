@@ -1,0 +1,36 @@
+body {
+    cursor: none;
+    margin: 0;
+    overflow: hidden; /* Prevent scrolling */
+    background-color: gray;
+}
+
+/* Inner dot (small cursor) */
+.cursor-dot {
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 1000;
+    transition: transform 0.2s ease-out;
+}
+
+/* Outer outline (larger cursor) */
+.cursor-outline {
+    width: 15px;
+    height: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 999;
+    transition: transform 0.3s ease-out, width 0.2s ease-in-out, height 0.2s ease-in-out;
+}
