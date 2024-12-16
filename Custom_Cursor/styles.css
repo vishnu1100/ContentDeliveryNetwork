@@ -2,7 +2,7 @@ body {
     cursor: none;
     margin: 0;
     overflow: hidden; /* Prevent scrolling */
-    background-color: gray;
+    
 }
 
 /* Inner dot (small cursor) */
