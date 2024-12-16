@@ -9,7 +9,7 @@ body {
 .cursor-dot {
     width: 5px;
     height: 5px;
-    background-color: white;
+    background-color: rgba(12, 205, 240, 0.5);
     position: fixed;
     top: 0;
     left: 0;
@@ -22,9 +22,10 @@ body {
 
 /* Outer outline (larger cursor) */
 .cursor-outline {
+  
     width: 15px;
     height: 15px;
-    border: 2px solid rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(12, 205, 240, 0.5);
     position: fixed;
     top: 0;
     left: 0;
