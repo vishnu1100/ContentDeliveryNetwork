@@ -8,7 +8,7 @@
 To start using **Custom Cursor**, add the following CDN  on to your page.
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/vishnu1100/ContentDeliveryNetwork/Custom_Cursor/styles.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/vishnu1100/ContentDeliveryNetwork/Custom_Cursor/style.css">
 ```
 
 And the script at the bottom of the page
